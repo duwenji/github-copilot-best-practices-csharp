@@ -1,0 +1,93 @@
+---
+# Metadata for GitHub Copilot Best Practices (C# Edition) Ebook
+
+# Core Metadata
+title: "GitHub Copilot ベストプラクティス（C# 版）"
+subtitle: "実務的なAIコーディング活用ガイド"
+author: "GitHub Copilot チーム"
+date: "2026-03-21"
+
+# Content Metadata
+language: ja
+publisher: "GitHub"
+rights: "Creative Commons Attribution 4.0 International License"
+
+# ISBN and Identifiers (optional - update when publishing)
+# isbn: ""
+# uuid: ""
+
+# Description
+description: |
+  GitHub Copilot の実務的な活用方法を C# 開発者向けに解説した包括的ガイドです。
+  基礎知識から実装パターン、チーム導入まで、6つのセクションで段階的に学習できます。
+  
+  【含まれる内容】
+  - IDE 統合と基本操作
+  - インラインコンプリーション、Chat、エディット、エージェント
+  - デザインパターン実装（Strategy、Repository）
+  - パフォーマンス最適化テクニック
+  - テスト駆動開発（TDD）
+  - ロール別学習パス（初心者, 中級, シニア, QA）
+  - チーム導入戦略と ROI 測定
+  - トラブルシューティングと部対応表
+
+# Keywords
+keywords:
+  - GitHub Copilot
+  - AI コーディング
+  - C# プログラミング
+  - コード生成
+  - ベストプラクティス
+  - 生産性向上
+  - チーム導入
+
+# Cover and Layout
+cover: "00-COVER.md"
+
+# TOC Depth (how many heading levels to include in TOC)
+toc-depth: 3
+
+# Chapter Configuration
+chapters:
+  auto-discover: true
+  dir-pattern: "^\\d{2}-"
+  file-pattern: "^\\d{2}-.*\\.md$"
+
+# Include README in final output
+include-readme: true
+
+# Spacing and Formatting
+line-spacing: 1.5
+font-size: 10pt
+
+# Format-specific Options
+formats:
+  epub:
+    enabled: true
+    version: 3
+    responsive: true
+  azw3:
+    enabled: true
+    kindlegen-compatibility: true
+  mobi:
+    enabled: true
+    legacy-format: true
+
+# Navigation and Indexing
+page-list:
+  enabled: true
+  heading-level: 2
+
+# Metadata for bookstore distribution (optional)
+# store-metadata:
+#   category: "Programming"
+#   subcategory: "C#"
+#   audience: "Professional"
+
+# Revision Tracking
+version: "1.0"
+revision-date: "2026-03-21"
+
+# Legal and License
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"
