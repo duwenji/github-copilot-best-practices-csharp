@@ -1,0 +1,11 @@
+{
+  "sourceRoot": ".",
+  "outputDir": "./ebook-output",
+  "projectName": "github-copilot-best-practices-csharp",
+  "metadataFile": "./.github/skills-config/ebook-build/github-copilot-best-practices-csharp.metadata.yaml",
+  "formats": ["epub", "azw3", "mobi"],
+  "enablePageList": true,
+  "chapterDirPattern": "^\\d{2}-",
+  "chapterFilePattern": "^\\d{2}-.*\\.md$",
+  "coverFile": "00-COVER.md"
+}
