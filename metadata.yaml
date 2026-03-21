@@ -45,7 +45,7 @@ keywords:
 cover: "00-COVER.md"
 
 # TOC Depth (how many heading levels to include in TOC)
-toc-depth: 3
+toc-depth: 2
 
 # Chapter Configuration
 chapters:
@@ -54,7 +54,7 @@ chapters:
   file-pattern: "^\\d{2}-.*\\.md$"
 
 # Include README in final output
-include-readme: true
+include-readme: false
 
 # Spacing and Formatting
 line-spacing: 1.5

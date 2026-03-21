@@ -1,14 +1,12 @@
-# 02 クイックリファレンス
-
-## よく使うコマンド、パターン、キーボードショートカットを素早く参照
+﻿### よく使うコマンド、パターン、キーボードショートカットを素早く参照
 
 Ctrl+F で検索して使用。
 
 ---
 
-## ⌨️ キーボードショートカット
+### ⌨️ キーボードショートカット
 
-### Copilot（全 IDE）
+#### Copilot（全 IDE）
 
 | 操作 | VS Code | Visual Studio |
 |------|---------|---------------|
@@ -18,7 +16,7 @@ Ctrl+F で検索して使用。
 | 前の提案 | `Ctrl+[` | `Alt+[` |
 | 拒否（Dismiss） | `Escape` | `Escape` |
 
-### Visual Studio 2022
+#### Visual Studio 2022
 
 | 操作 | ショートカット |
 |------|----------------|
@@ -32,7 +30,7 @@ Ctrl+F で検索して使用。
 | Format Document | `Ctrl+K, Ctrl+D` |
 | Format Selection | `Ctrl+K, Ctrl+F` |
 
-### VS Code
+#### VS Code
 
 | 操作 | ショートカット |
 |------|----------------|
@@ -46,9 +44,9 @@ Ctrl+F で検索して使用。
 
 ---
 
-## 💬 Copilot Chat よく使うプロンプト
+### 💬 Copilot Chat よく使うプロンプト
 
-### コード理解
+#### コード理解
 
 ```
 このメソッドが何をしているか説明して
@@ -56,7 +54,7 @@ Ctrl+F で検索して使用。
 [メソッドコードを貼り付け]
 ```
 
-### リファクタリング
+#### リファクタリング
 
 ```
 このコード、SOLID 原則に従うようにリファクタリングして
@@ -64,7 +62,7 @@ Ctrl+F で検索して使用。
 [コード]
 ```
 
-### テスト生成
+#### テスト生成
 
 ```
 このクラスの包括的な xUnit テストを生成してください
@@ -73,7 +71,7 @@ Ctrl+F で検索して使用。
 [クラスコード]
 ```
 
-### バグ調査
+#### バグ調査
 
 ```
 このエラー、原因と対策を教えてください
@@ -81,7 +79,7 @@ Ctrl+F で検索して使用。
 [エラースタックトレース + コード]
 ```
 
-### パフォーマンス診断
+#### パフォーマンス診断
 
 ```
 このクエリが遅い理由は？最適化案を教えてください
@@ -89,7 +87,7 @@ Ctrl+F で検索して使用。
 [LINQ or SQL]
 ```
 
-### セキュリティ見直し
+#### セキュリティ見直し
 
 ```
 このコード、セキュリティ脆弱性を指摘してください
@@ -97,7 +95,7 @@ Ctrl+F で検索して使用。
 [コード]
 ```
 
-### パターン相談
+#### パターン相談
 
 ```
 複数の支払い方法（CreditCard, PayPal, BankTransfer）に対応する場合、
@@ -106,9 +104,9 @@ Ctrl+F で検索して使用。
 
 ---
 
-## 🎯 よく使う C# パターン
+### 🎯 よく使う C# パターン
 
-### 非同期処理
+#### 非同期処理
 
 ```csharp
 // 基本形
@@ -131,7 +129,7 @@ var result = await _service.GetAsync()
     .Unwrap();
 ```
 
-### エラーハンドリング
+#### エラーハンドリング
 
 ```csharp
 try
@@ -154,7 +152,7 @@ finally
 }
 ```
 
-### Null チェック
+#### Null チェック
 
 ```csharp
 // Null-coalescing
@@ -173,7 +171,7 @@ if (order is { Status: OrderStatus.Pending, Amount: > 1000 })
 }
 ```
 
-### LINQ パターン
+#### LINQ パターン
 
 ```csharp
 // Filter, Map, Reduce
@@ -209,7 +207,7 @@ var page2 = _context.Orders
     .ToListAsync();
 ```
 
-### 依存性注入
+#### 依存性注入
 
 ```csharp
 // Startup Register (Program.cs / Startup.cs)
@@ -227,7 +225,7 @@ public class OrderService
 }
 ```
 
-### Strategy パターン
+#### Strategy パターン
 
 ```csharp
 // Interface
@@ -256,7 +254,7 @@ var strategy = _factory.GetStrategy(order.PaymentMethod);
 var result = await strategy.ProcessAsync(request);
 ```
 
-### Unit Test テンプレート
+#### Unit Test テンプレート
 
 ```csharp
 public class OrderServiceTests
@@ -290,9 +288,9 @@ public class OrderServiceTests
 
 ---
 
-## 📊 Entity Framework Core パターン
+### 📊 Entity Framework Core パターン
 
-### Context Setup
+#### Context Setup
 
 ```csharp
 // DbContext
@@ -312,7 +310,7 @@ services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("Default")));
 ```
 
-### Querying
+#### Querying
 
 ```csharp
 // Simple Query
@@ -345,7 +343,7 @@ var orders = await _context.Orders
     .ToListAsync();
 ```
 
-### Mutations
+#### Mutations
 
 ```csharp
 // Create
@@ -370,7 +368,7 @@ await _context.Orders
 
 ---
 
-## 🔐 セキュリティ チェックリスト
+### 🔐 セキュリティ チェックリスト
 
 Every PR Review:
 
@@ -384,7 +382,7 @@ Every PR Review:
 
 ---
 
-## 📈 パフォーマンス チェックリスト
+### 📈 パフォーマンス チェックリスト
 
 Every Performance Critical Code:
 
@@ -398,7 +396,7 @@ Every Performance Critical Code:
 
 ---
 
-## 🧪 テストキー チェックリスト
+### 🧪 テストキー チェックリスト
 
 Every Unit Test:
 
@@ -411,9 +409,9 @@ Every Unit Test:
 
 ---
 
-## 📝 ドキュメント テンプレート
+### 📝 ドキュメント テンプレート
 
-### XMLDoc (Public methods)
+#### XMLDoc (Public methods)
 
 ```csharp
 /// <summary>
@@ -428,7 +426,7 @@ public async Task<Order> GetOrderAsync(int orderId)
 }
 ```
 
-### Code Comment (Complex logic)
+#### Code Comment (Complex logic)
 
 ```csharp
 // Strategy パターンで支払い方法を選択
@@ -439,7 +437,7 @@ var strategy = _paymentFactory.GetStrategy(order.PaymentMethod);
 
 ---
 
-## 🚀 チームオンボーディングチェック
+### 🚀 チームオンボーディングチェック
 
 New Team Member Quick Links:
 
@@ -453,7 +451,7 @@ New Team Member Quick Links:
 
 ---
 
-## 🔗 外部リソース
+### 🔗 外部リソース
 
 - [C# Documentation](https://learn.microsoft.com/en-us/dotnet/csharp/)
 - [Async Best Practices](https://learn.microsoft.com/en-us/archive/msdn-magazine/2013/march/async-await-best-practices-in-asynchronous-programming)

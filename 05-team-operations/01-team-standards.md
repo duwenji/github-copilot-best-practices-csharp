@@ -1,14 +1,12 @@
-# 01 チーム標準の策定
-
-## コード品質と開発効率のための共通ルールを作る
+﻿### コード品質と開発効率のための共通ルールを作る
 
 チーム全体で Copilot を効果的に活用するには「標準」が必須。一貫したコード品質、保守性、Copilot との付き合い方を定義します。
 
 ---
 
-## 🏢 チーム標準のねらい
+### 🏢 チーム標準のねらい
 
-### 問題シーン
+#### 問題シーン
 ```
 チーム 5 人が個々に Copilot を使う…
 
@@ -27,7 +25,7 @@
 → 品質 , スピード低下
 ```
 
-### 解決策：チーム標準を決める
+#### 解決策：チーム標準を決める
 ```
 チーム会：「複数実装パターンはどう実装する？」
 → 結論：「Strategy パターン を標準とする」
@@ -44,9 +42,9 @@
 
 ---
 
-## 📋 チーム標準ドキュメントのテンプレート
+### 📋 チーム標準ドキュメントのテンプレート
 
-### 1. プロジェクト基本情報
+#### 1. プロジェクト基本情報
 
 ```markdown
 ## Project Information
@@ -57,7 +55,7 @@
 - **Target Coverage**: 80% unit test
 ```
 
-### 2. 命名規則
+#### 2. 命名規則
 
 ```markdown
 ## Code Naming Conventions
@@ -84,7 +82,7 @@
 - Stored procedures: `sp_Action_EntityName`
 ```
 
-### 3. デザインパターン標準
+#### 3. デザインパターン標準
 
 ```markdown
 ## Design Patterns
@@ -145,7 +143,7 @@ public interface IUnitOfWork : IDisposable
 ```
 ```
 
-### 4. エラーハンドリング標準
+#### 4. エラーハンドリング標準
 
 ```markdown
 ## Error Handling
@@ -183,7 +181,7 @@ public async Task<ApiResponse<T>> GetDataAsync<T>(int id)
 ```
 ```
 
-### 5. テスト基準
+#### 5. テスト基準
 
 ```markdown
 ## Testing Standards
@@ -242,7 +240,7 @@ public class OrderServiceTests
 - **Frequency**: Run in CI/CD pipeline (slower, so selective)
 ```
 
-### 6. パフォーマンス基準
+#### 6. パフォーマンス基準
 
 ```markdown
 ## Performance Standards
@@ -270,7 +268,7 @@ public class OrderServiceTests
 5. **Cache immutable data**: 5-min cache for reference data
 ```
 
-### 7. Copilot 使用ルール
+#### 7. Copilot 使用ルール
 
 ```markdown
 ## Copilot Usage Guidelines
@@ -310,7 +308,7 @@ public class OrderServiceTests
 - [ ] No null reference exceptions
 ```
 
-### 8. コードレビューチェックリスト
+#### 8. コードレビューチェックリスト
 
 ```markdown
 ## Code Review Checklist
@@ -358,9 +356,9 @@ Reviewer は以下をチェック：
 
 ---
 
-## 🚀 チーム標準の導入ステップ
+### 🚀 チーム標準の導入ステップ
 
-### Week 1: 基本ルールを決定
+#### Week 1: 基本ルールを決定
 ```
 Team meeting (2時間):
 1. 命名規則確認（既存 + 更新する箇所）
@@ -369,7 +367,7 @@ Team meeting (2時間):
 4. テスト基準（覆陰率, ツール, 場所）
 ```
 
-### Week 2: ドキュメント作成 & CI/CD パイプライン更新
+#### Week 2: ドキュメント作成 & CI/CD パイプライン更新
 ```
 1. `.github/copilot-instructions.md` 作成
 2. `.editorconfig` 作成（自動フォーマット）
@@ -377,14 +375,14 @@ Team meeting (2時間):
 4. Git pre-commit hook で強制
 ```
 
-### Week 3: チーム全体トレーニング
+#### Week 3: チーム全体トレーニング
 ```
 1. 標準ドキュメントの説明会（30分）
 2. Copilot + 標準の演習（1時間）
 3. 質問受け付けタイム
 ```
 
-### Week 4: 実装 + フィードバック
+#### Week 4: 実装 + フィードバック
 ```
 新機能開発で標準を使用
 → コードレビューで「標準守れてるか」チェック
@@ -393,7 +391,7 @@ Team meeting (2時間):
 
 ---
 
-## ✅ チェックリスト
+### ✅ チェックリスト
 
 - [ ] チーム全体で「デザインパターン標準」を決定
 - [ ] `.github/copilot-instructions.md` を作成
@@ -404,7 +402,7 @@ Team meeting (2時間):
 
 ---
 
-## 🔗 参考
+### 🔗 参考
 
 - [EditorConfig](https://editorconfig.org/)
 - [StyleCop Analyzers](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)

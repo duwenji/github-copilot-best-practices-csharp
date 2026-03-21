@@ -1,17 +1,15 @@
-# 01 デザインパターン適用
-
-## 既存コードにパターンを適用してリファクタリング
+﻿### 既存コードにパターンを適用してリファクタリング
 
 中級者にとって重要な「デザインパターンを実務に適用する」スキルを learning-by-doing で習得します。
 
 ---
 
-## 🎯 シナリオ：支払い処理にストラテジーパターンを適用
+### 🎯 シナリオ：支払い処理にストラテジーパターンを適用
 
-### 状況
+#### 状況
 「複数の支払い方法（クレジットカード、PayPal、銀行振込）に対応したい」
 
-### ❌ リファクタリング前：if-else で分岐
+#### ❌ リファクタリング前：if-else で分岐
 
 ```csharp
 public class OrderProcessor
@@ -47,7 +45,7 @@ public class OrderProcessor
 // 3. テストが複雑
 ```
 
-### ✅ リファクタリング後：Strategy パターン
+#### ✅ リファクタリング後：Strategy パターン
 
 **ステップ 1: インターフェース定義**
 
@@ -175,7 +173,7 @@ services.AddScoped<IPaymentStrategy, BankTransferPaymentStrategy>();
 services.AddScoped<PaymentContext>();
 ```
 
-### 効果
+#### 効果
 - ✅ **新しい支払い方法追加が簡単** — 新クラス作成 + DI 登録のみ
 - ✅ **テストが容易** — 各戦略のモック化が簡単
 - ✅ **責務分離** — 各支払い方法のロジックが独立
@@ -183,9 +181,9 @@ services.AddScoped<PaymentContext>();
 
 ---
 
-## 🎯 リポジトリパターンの応用
+### 🎯 リポジトリパターンの応用
 
-### シーン：複数のデータソース（SQL, NoSQL, API）に対応
+#### シーン：複数のデータソース（SQL, NoSQL, API）に対応
 
 ```csharp
 public interface IRepository<T> where T : class
@@ -240,7 +238,7 @@ public class UserService
 
 ---
 
-## ✅ 習熟度チェック
+### ✅ 習熟度チェック
 
 - [ ] Strategy パターンの概念が理解できた
 - [ ] 既存の if-else 分岐を Strategy に置き換えられた
@@ -252,7 +250,7 @@ public class UserService
 
 ---
 
-## 🔗 参考
+### 🔗 参考
 
 - [Design Patterns in C#](https://refactoring.guru/design-patterns/csharp)
 - [Strategy Pattern](https://refactoring.guru/design-patterns/strategy)

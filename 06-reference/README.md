@@ -1,6 +1,6 @@
-# 06 リファレンス | Reference
+﻿## リファレンス | Reference
 
-## 📚 このセクションについて
+### 📚 このセクションについて
 
 **対象**: 全員  
 **用途**: 辞書的・カタログ的な参照資料  
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 このセクションの役割
+### 🎯 このセクションの役割
 
 「**あ、あれどうやるんだっけ？**」というときに、すぐ調べられる参照資料集です：
 
@@ -19,9 +19,9 @@
 
 ---
 
-## 📖 コンテンツ構成
+### 📖 コンテンツ構成
 
-### [01-troubleshooting.md](01-troubleshooting.md)
+#### [01-troubleshooting.md](01-troubleshooting.md)
 **用途**: エラーや困ったときの解決策  
 **掲載内容**:
 - Copilot が反応しない
@@ -34,7 +34,7 @@
 
 ---
 
-### [02-quick-reference.md](02-quick-reference.md)
+#### [02-quick-reference.md](02-quick-reference.md)
 **用途**: よく使うプロンプト・ショートカット集  
 **掲載内容**:
 - キーボードショートカット一覧
@@ -46,7 +46,7 @@
 
 ---
 
-### [03-feature-by-role-matrix.md](03-feature-by-role-matrix.md)
+#### [03-feature-by-role-matrix.md](03-feature-by-role-matrix.md)
 **用途**: 自分のロールに最適な機能が何か一目瞭然  
 **掲載内容**:
 - ロール × 機能 マトリックス
@@ -58,7 +58,7 @@
 
 ---
 
-### [04-project-templates.md](04-project-templates.md)
+#### [04-project-templates.md](04-project-templates.md)
 **用途**: プロジェクト種別ごとのベストプラクティス  
 **掲載内容**:
 - Web API プロジェクト
@@ -71,7 +71,7 @@
 
 ---
 
-## 🎯 使い分けガイド
+### 🎯 使い分けガイド
 
 | 状況 | → | 参照ファイル |
 |------|---|-----------|
@@ -84,7 +84,7 @@
 
 ---
 
-## 📙 ファイル一覧と用途
+### 📙 ファイル一覧と用途
 
 | ファイル | サイズ | 掲載項目数 | 参照頻度 |
 |---------|--------|---------|--------|
@@ -96,45 +96,45 @@
 
 ---
 
-## 💡 おすすめ活用法
+### 💡 おすすめ活用法
 
-### パターン A: ブックマーク登録
+#### パターン A: ブックマーク登録
 GitHub で各ドキュメントを ⭐ して、検索しやすくする
 
-### パターン B: チームの Wiki に転載
+#### パターン B: チームの Wiki に転載
 GitHub Wiki/Confluence に 02, 03, 04 を転載して、オフライン対応
 
-### パターン C: IDE のクイックリファレンス
+#### パターン C: IDE のクイックリファレンス
 エディタ内に 02-quick-reference.md を常時表示
 
-### パターン D: スマートフォンに保存
+#### パターン D: スマートフォンに保存
 外出先でのトラブル対応に 01-troubleshooting.md を PDF 化
 
 ---
 
-## 🔍 索引（早引き）
+### 🔍 索引（早引き）
 
-### キーボードショートカット
+#### キーボードショートカット
 → [02-quick-reference.md](02-quick-reference.md#キーボードショートカット)
 
-### Chat の使い方
+#### Chat の使い方
 → [03-feature-by-role-matrix.md](03-feature-by-role-matrix.md#chat-の使用シーン)
 
-### テストコード生成
+#### テストコード生成
 → [04-project-templates.md](04-project-templates.md#テストプロジェクト)
 
-### リポジトリパターン
+#### リポジトリパターン
 → [04-project-templates.md](04-project-templates.md#entity-framework-core-プロジェクト)
 
-### LINQ 最適化
+#### LINQ 最適化
 → [02-quick-reference.md](02-quick-reference.md#linq-クイックリファレンス)
 
-### API デザイン
+#### API デザイン
 → [04-project-templates.md](04-project-templates.md#web-api-プロジェクト)
 
 ---
 
-## 📱 モバイル対応
+### 📱 モバイル対応
 
 すべてのファイルは Markdown なので、以下でも読めます：
 - 📱 GitHub Mobile アプリ
@@ -144,13 +144,13 @@ GitHub Wiki/Confluence に 02, 03, 04 を転載して、オフライン対応
 
 ---
 
-## 🚀 次に読むべきコンテンツ
+### 🚀 次に読むべきコンテンツ
 
-### 初めてこのドキュメント全体を見た人
+#### 初めてこのドキュメント全体を見た人
 1. 根元の [README.md](../README.md) で学習パス選択
 2. [01-foundations](../01-foundations/) から開始
 
-### すでに基本は習得した人
+#### すでに基本は習得した人
 1. [03-feature-by-role-matrix.md](03-feature-by-role-matrix.md) で推奨機能確認
 2. 弱点セクションをターゲット学習
 
@@ -160,7 +160,7 @@ GitHub Wiki/Confluence に 02, 03, 04 を転載して、オフライン対応
 
 ---
 
-## ✅ リファレンスが役に立ったか？
+### ✅ リファレンスが役に立ったか？
 
 このセクション内容について、改善提案があれば：
 - 📧 チーム Wiki にコメント
@@ -169,7 +169,7 @@ GitHub Wiki/Confluence に 02, 03, 04 を転載して、オフライン対応
 
 ---
 
-## 📌 このセクションについて
+### 📌 このセクションについて
 
 このリファレンスセクションは、他のセクション（Foundations, Core Features など）と異なり、**順番に読む必要はありません**。
 
@@ -180,7 +180,7 @@ GitHub Wiki/Confluence に 02, 03, 04 を転載して、オフライン対応
 
 ---
 
-## 🔗 超クイックリンク
+### 🔗 超クイックリンク
 
 | 困りごと | リンク |
 |---------|-------|

@@ -1,14 +1,12 @@
-# 03 テスト容易性
-
-## テストしやすい設計にリファクタリング
+﻿### テストしやすい設計にリファクタリング
 
 「このコード、テストが書きやすい/難しい」の差は設計に由来します。依存性注入とモックを活用した設計を学びます。
 
 ---
 
-## 🎯 シーン：依存性が多いコードをテスト可能に
+### 🎯 シーン：依存性が多いコードをテスト可能に
 
-### ❌ テスト困難なコード
+#### ❌ テスト困難なコード
 
 ```csharp
 public class OrderProcessor
@@ -41,7 +39,7 @@ public class OrderProcessor
 // 4. 実際のデータベース接続が必要
 ```
 
-### ✅ テスト可能な設計
+#### ✅ テスト可能な設計
 
 **ステップ 1: インターフェース定義**
 
@@ -205,16 +203,16 @@ public class OrderProcessorTests
 }
 ```
 
-### テスト容易性の改善
+#### テスト容易性の改善
 - ✅ **Moq でモック化** — インターフェース経由のため簡単
 - ✅ **実装と隔離** — テストが実装の詳細に依存しない
 - ✅ **複数ケースをカバー** — 正常系・異常系を独立テスト
 
 ---
 
-## 🎯 テスト可能な設計の原則
+### 🎯 テスト可能な設計の原則
 
-### 原則 1: Interface を活用
+#### 原則 1: Interface を活用
 
 ```csharp
 // ✅ テスト可能
@@ -235,7 +233,7 @@ public class Service
 }
 ```
 
-### 原則 2: 依存性を外部から注入
+#### 原則 2: 依存性を外部から注入
 
 ```csharp
 // ✅ テスト可能（DI コンテナが自動配線）
@@ -256,7 +254,7 @@ public class UserService
 }
 ```
 
-### 原則 3: ビジネスロジックと I/O を分離
+#### 原則 3: ビジネスロジックと I/O を分離
 
 ```csharp
 // ❌ テスト困難（ロジック + DB 操作が混在）
@@ -286,7 +284,7 @@ public async Task SaveOrderAsync(Order order)
 
 ---
 
-## ✅ 習熟度チェック
+### ✅ 習熟度チェック
 
 - [ ] インターフェース設計ができた
 - [ ] 依存性注入の実装ができた
@@ -298,7 +296,7 @@ public async Task SaveOrderAsync(Order order)
 
 ---
 
-## 🔗 参考
+### 🔗 参考
 
 - [Unit Testing Best Practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
 - [Moq Documentation](https://github.com/Moq/moq4/wiki/Quickstart)

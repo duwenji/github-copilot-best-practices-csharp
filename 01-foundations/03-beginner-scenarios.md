@@ -1,17 +1,15 @@
-# 03 初心者向けシナリオ
-
-## 初心者が最初に取り組むべき 3 つの実装シナリオ
+﻿### 初心者が最初に取り組むべき 3 つの実装シナリオ
 
 実際のコード例を通じて、Copilot の活用法を学びます。各シナリオは簡潔な実装から段階的に複雑化します。
 
 ---
 
-## シナリオ 1: ファイル操作の実装
+### シナリオ 1: ファイル操作の実装
 
-### 状況
+#### 状況
 「テキストファイルを読み込んで、各行をリストとして返す機能を作りたい」
 
-### ステップ 1: 意図をコメントで伝える
+#### ステップ 1: 意図をコメントで伝える
 
 ```csharp
 // テキストファイルを読み込んで、各行をリストとして返す
@@ -21,7 +19,7 @@ public List<string> ReadFileLines(string filename)
 }
 ```
 
-### ステップ 2: Copilot の提案を確認
+#### ステップ 2: Copilot の提案を確認
 
 Copilot による提案例：
 
@@ -54,7 +52,7 @@ public List<string> ReadFileLines(string filename)
 }
 ```
 
-### ステップ 3: より モダンな書き方に改善
+#### ステップ 3: より モダンな書き方に改善
 
 チャットで「より モダンな書き方を提案して」と聞くと：
 
@@ -72,12 +70,12 @@ public async IAsyncEnumerable<string> ReadFileLinesAsync(string filename)
 
 ---
 
-## シナリオ 2: LINQ の使い方を学ぶ
+### シナリオ 2: LINQ の使い方を学ぶ
 
-### 状況
+#### 状況
 「コレクション操作を効率的に行いたい。フォアーチループではなく LINQ を使いたい」
 
-### ステップ 1: 基本的な foreach 版
+#### ステップ 1: 基本的な foreach 版
 
 ```csharp
 var numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
@@ -92,7 +90,7 @@ foreach (var num in numbers)
 }
 ```
 
-### ステップ 2: Copilot に LINQ 版を提案してもらう
+#### ステップ 2: Copilot に LINQ 版を提案してもらう
 
 「このコードを LINQ で書き直して」と指示 →
 
@@ -100,7 +98,7 @@ foreach (var num in numbers)
 var evenNumbersLinq = numbers.Where(n => n % 2 == 0).ToList();
 ```
 
-### ステップ 3: より複雑な例に応用
+#### ステップ 3: より複雑な例に応用
 
 ```csharp
 var students = new List<Student>
@@ -123,7 +121,7 @@ var gradeStats = students
     .ToList();
 ```
 
-### 学ぶべきポイント
+#### 学ぶべきポイント
 - `Where()` — フィルタリング
 - `Select()` — データ変換
 - `GroupBy()` — グループ化
@@ -131,12 +129,12 @@ var gradeStats = students
 
 ---
 
-## シナリオ 3: 非同期プログラミングの導入
+### シナリオ 3: 非同期プログラミングの導入
 
-### 状況
+#### 状況
 「Web API からデータを取得したい。非同期処理を正しく書きたい」
 
-### ❌ 間違った非同期処理
+#### ❌ 間違った非同期処理
 
 ```csharp
 // 危険：using と例外処理がない
@@ -148,7 +146,7 @@ public async Task<string> GetDataAsync()
 }
 ```
 
-### ✅ ベストプラクティス版
+#### ✅ ベストプラクティス版
 
 ```csharp
 public class DataService
@@ -221,7 +219,7 @@ public class Result<T>
 }
 ```
 
-### 学ぶべきポイント
+#### 学ぶべきポイント
 - ✅ **CancellationToken を渡す** — キャンセル対応
 - ✅ **EnsureSuccessStatusCode()** — HTTP エラーチェック
 - ✅ **ライングリ例外処理** — HttpRequestException, JsonException など分ける
@@ -230,7 +228,7 @@ public class Result<T>
 
 ---
 
-## 🎯 実装の流れ
+### 🎯 実装の流れ
 
 各シナリオで推奨される進め方：
 
@@ -241,23 +239,23 @@ public class Result<T>
 
 ---
 
-## 💡 各シナリオから学べることの活用先
+### 💡 各シナリオから学べることの活用先
 
-### シナリオ 1（ファイル操作）から学べること
+#### シナリオ 1（ファイル操作）から学べること
 - `using` ステートメント — リソース管理
 - 例外処理 — エラーハンドリング
 - 非同期ファイル操作 — `async/await`
 
 **活用先**: ログ読み込み、設定ファイル解析、BOM ファイル処理など
 
-### シナリオ 2（LINQ）から学べること
+#### シナリオ 2（LINQ）から学べること
 - メソッドチェーン — 流暢なコード
 - ラムダ式 — 匿名関数
 - 遅延評価 — 効率的なメモリ使用
 
 **活用先**: リストフィルタリング、データ変換、ソート、集計処理など
 
-### シナリオ 3（非同期処理）から学べること
+#### シナリオ 3（非同期処理）から学べること
 - async/await パターン — 非ブロッキング処理
 - CancellationToken — キャンセル対応
 - 例外処理の詳細 — エラー分類
@@ -266,7 +264,7 @@ public class Result<T>
 
 ---
 
-## ✅ 習熟度チェック
+### ✅ 習熟度チェック
 
 このセクション完了時、以下ができていますか？
 
@@ -280,7 +278,7 @@ public class Result<T>
 
 ---
 
-## 🔗 参考資料
+### 🔗 参考資料
 
 - [LINQ Basic Concepts](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/linq/)
 - [Asynchronous programming patterns](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)

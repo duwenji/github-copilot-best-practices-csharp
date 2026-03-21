@@ -1,12 +1,10 @@
-# 04 Copilot Instructions テンプレート
-
-## プロジェクト固有の Copilot ガイドラインをテンプレートして、全チームで統一的に使う
+﻿### プロジェクト固有の Copilot ガイドラインをテンプレートして、全チームで統一的に使う
 
 `.github/copilot-instructions.md` は Copilot AI が参照する「このプロジェクトのルール」。チームのコーディング標準、設計パターン、セキュリティ要件を明示することで、生成されるコードの品質を飛躍的に向上させます。
 
 ---
 
-## 📋 テンプレート全体
+### 📋 テンプレート全体
 
 完全なテンプレートを以下に示します。プロジェクト特性に合わせてカスタマイズしてください。
 
@@ -581,7 +579,7 @@ Ask in #copilot-questions on Slack
 
 ---
 
-## 📝 カスタマイズのポイント
+### 📝 カスタマイズのポイント
 
 実際に使用する際には、以下を調整してください：
 
@@ -593,7 +591,7 @@ Ask in #copilot-questions on Slack
 
 ---
 
-## ✅ Copilot Instructions 導入チェックリスト
+### ✅ Copilot Instructions 導入チェックリスト
 
 - [ ] `.github/copilot-instructions.md` ファイルを作成
 - [ ] チーム全体で内容をレビュー + approve
@@ -604,7 +602,7 @@ Ask in #copilot-questions on Slack
 
 ---
 
-## 🔗 参考テンプレート
+### 🔗 参考テンプレート
 
 - [GitHub Copilot Documentation](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering)
 - [Awesome Copilot Instructions](https://github.com/search?q=copilot-instructions.md)

@@ -1,14 +1,12 @@
-# 04 プロジェクトテンプレート
-
-## よくあるプロジェクト種別ごとの「Copilot Best Practice」ガイド
+﻿### よくあるプロジェクト種別ごとの「Copilot Best Practice」ガイド
 
 各プロジェクトタイプの初期セットアップと推奨パターンを紹介します。
 
 ---
 
-## 🎯 プロジェクトタイプ別ガイド
+### 🎯 プロジェクトタイプ別ガイド
 
-### 1️⃣ Web API (ASP.NET Core)
+#### 1️⃣ Web API (ASP.NET Core)
 
 **典型的なレイヤ構造**:
 ```
@@ -85,7 +83,7 @@ public class CreateUserServiceTests { ... }
 
 ---
 
-### 2️⃣ Console Application / Worker Service
+#### 2️⃣ Console Application / Worker Service
 
 **典型的なシーン**:
 - バッチ処理
@@ -176,7 +174,7 @@ public class ProcessingWorkerTests
 
 ---
 
-### 3️⃣ Class Library / SDK
+#### 3️⃣ Class Library / SDK
 
 **典型的なシーン**:
 - NuGet パッケージ
@@ -250,7 +248,7 @@ public static async Task Main()
 
 ---
 
-### 4️⃣ Microservice
+#### 4️⃣ Microservice
 
 **典型的なアーキテクチャ**:
 ```
@@ -334,7 +332,7 @@ public class PaymentServiceContractTests
 
 ---
 
-### 5️⃣ Console App (Simple Automation / Scripts)
+#### 5️⃣ Console App (Simple Automation / Scripts)
 
 **典型的なシーン**:
 - データマイグレーション
@@ -364,9 +362,9 @@ Console.WriteLine("✅ Data imported successfully");
 
 ---
 
-## 📋 すべてのプロジェクトタイプに共通
+### 📋 すべてのプロジェクトタイプに共通
 
-### 1. `.github/copilot-instructions.md` 必須
+#### 1. `.github/copilot-instructions.md` 必須
 
 ```markdown
 ## プロジェクト固有の Copilot ガイド
@@ -392,7 +390,7 @@ Console.WriteLine("✅ Data imported successfully");
 - Input validation on all public methods
 ```
 
-### 2. テストテンプレート
+#### 2. テストテンプレート
 
 すべてのプロジェクトで同じテスト構造：
 ```
@@ -409,7 +407,7 @@ ProjectName/
       └─ Models/
 ```
 
-### 3. CI/CD Pipeline
+#### 3. CI/CD Pipeline
 
 ```yaml
 # .github/workflows/test.yml
@@ -421,7 +419,7 @@ ProjectName/
 
 ---
 
-## ✅ プロジェクト初期化チェック
+### ✅ プロジェクト初期化チェック
 
 ```
 ☐ .github/copilot-instructions.md を作成
@@ -435,9 +433,9 @@ ProjectName/
 
 ---
 
-## 🚀 推奨ワークフロー
+### 🚀 推奨ワークフロー
 
-### Day 1: セットアップ
+#### Day 1: セットアップ
 ```
 1. git clone
 2. dotnet build
@@ -446,7 +444,7 @@ ProjectName/
 5. IDE opening
 ```
 
-### Day 2-3: First Feature
+#### Day 2-3: First Feature
 ```
 1. Issue/Task を読む
 2. コメントで intent を書く → Copilot 補完
@@ -457,7 +455,7 @@ ProjectName/
 
 ---
 
-## 📚 参考
+### 📚 参考
 
 - [Clean Architecture in .NET](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - [Microservices Patterns](https://microservices.io/patterns/)

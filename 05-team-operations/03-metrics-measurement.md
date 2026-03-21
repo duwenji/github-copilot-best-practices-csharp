@@ -1,16 +1,14 @@
-# 03 メトリクスと測定
-
-## Copilot の効果を定量的に測定して、投資効果を証明する
+﻿### Copilot の効果を定量的に測定して、投資効果を証明する
 
 「Copilot を導入したら生産性が上がった」は主観的。データで測定し、改善サイクルを回します。
 
 ---
 
-## 📊 測定すべき主な KPI
+### 📊 測定すべき主な KPI
 
-### 1. 生産性メトリクス
+#### 1. 生産性メトリクス
 
-#### コミット数 / 人 / 週
+##### コミット数 / 人 / 週
 
 ```sql
 SELECT 
@@ -29,7 +27,7 @@ ORDER BY Week DESC;
 - 導入前後でコミット数 の増加 → 生産性向上の兆候（但し質と量は別）
 - 留意点：「多い = 高品質」ではない。テストカバレッジと合わせて見る
 
-#### Pull Request マージ時間
+##### Pull Request マージ時間
 
 ```sql
 SELECT 
@@ -49,9 +47,9 @@ ORDER BY Day DESC;
 
 ---
 
-### 2. コード品質メトリクス
+#### 2. コード品質メトリクス
 
-#### テスト カバレッジ
+##### テスト カバレッジ
 
 ```csharp
 // Sonarqube / OpenCover から取得
@@ -72,7 +70,7 @@ public class CodeQualityMetrics
 
 **理由**：Copilot は テストコード生成が得意。テストが増える = カバレッジ↑
 
-#### コード品質スコア
+##### コード品質スコア
 
 ```csharp
 public class CodeQualityScore {
@@ -89,7 +87,7 @@ public class CodeQualityScore {
 - Code Duplication: 10% → 5%
 - Issues Count: 100 → 50（重大度別に分析）
 
-#### バグ検出率（リグレッション）
+##### バグ検出率（リグレッション）
 
 ```sql
 SELECT 
@@ -115,9 +113,9 @@ Month    | High | Medium | Low | AvgDaysToFix
 
 ---
 
-### 3. チーム効率メトリクス
+#### 3. チーム効率メトリクス
 
-#### Code Review コメント数
+##### Code Review コメント数
 
 ```sql
 SELECT 
@@ -135,7 +133,7 @@ ORDER BY Week DESC;
 - コメント数 ↓ → 「コード品質向上で指摘減」 OR 「レビュー不十分」（他メトリクスで確認）
 - コメント内容の質 → 「パターン指摘」から「複雑な設計相談」へシフト（高度化）
 
-#### デプロイ頻度（本番リリース）
+##### デプロイ頻度（本番リリース）
 
 ```sql
 SELECT 
@@ -155,9 +153,9 @@ ORDER BY Week DESC;
 
 ---
 
-## 🎯 ROI計算：Copilot 導入投資回収
+### 🎯 ROI計算：Copilot 導入投資回収
 
-### 前提
+#### 前提
 
 ```
 Team Size: 10 engineers
@@ -171,7 +169,7 @@ Copilot License: $120/person/year
 - バグ修正: 20% 削減（テスト増 + 品質向上）
 ```
 
-### ROI 計算
+#### ROI 計算
 
 ```csharp
 public class CopilotROI
@@ -204,9 +202,9 @@ public class CopilotROI
 
 ---
 
-## 📈 ダッシュボード事例
+### 📈 ダッシュボード事例
 
-### Weekly Dashboard（各チームが見る）
+#### Weekly Dashboard（各チームが見る）
 
 ```markdown
 ## Week of 2024-02-12
@@ -234,7 +232,7 @@ public class CopilotROI
 - "Refactored OrderProcessor with Strategy pattern, coverage 60%→85%" - Bob
 ```
 
-### Monthly Executive Summary
+#### Monthly Executive Summary
 
 ```markdown
 ## Copilot 導入 3ヶ月レポート
@@ -270,9 +268,9 @@ public class CopilotROI
 
 ---
 
-## 🔧 測定インフラの構築
+### 🔧 測定インフラの構築
 
-### ツールスタック推奨
+#### ツールスタック推奨
 
 ```yaml
 Version Control:
@@ -298,7 +296,7 @@ Process:
   - Automated reports （月 1 回メール）
 ```
 
-### データパイプライン例
+#### データパイプライン例
 
 ```
 GitHub API
@@ -316,9 +314,9 @@ Alerts (Slack / Email)
 
 ---
 
-## ✅ Copilot 効果測定チェックリスト
+### ✅ Copilot 効果測定チェックリスト
 
-### 導入前（ベースライン測定）
+#### 導入前（ベースライン測定）
 - [ ] 現在の テスト coverage を測定・記録
 - [ ] バグ検出率を 1 ヶ月分記録
 - [ ] PR のマージ平均時間を計測
@@ -326,13 +324,13 @@ Alerts (Slack / Email)
 - [ ] Developer satisfaction アンケート（5段階）
 - [ ] 月間開発時間の内訳把握
 
-### 導入中（毎週追跡）
+#### 導入中（毎週追跡）
 - [ ] GitHub Actions で weekly metrics 自動収集
 - [ ] Slack チャネルに weekly summary post
 - [ ] Sonarqube と coverage ツール連携
 - [ ] Manual survey 月 1 回（どう感じてるか）
 
-### 導入後 3-6 ヶ月（評価）
+#### 導入後 3-6 ヶ月（評価）
 - [ ] 主要 KPI の改善度を計測
 - [ ] ROI を計算
 - [ ] リスク領域（セキュリティなど）を確認
@@ -341,7 +339,7 @@ Alerts (Slack / Email)
 
 ---
 
-## 📚 参考
+### 📚 参考
 
 - [DORA Metrics](https://dora.dev/) （DevOps Research & Assessment）
 - [Sonarqube Documentation](https://docs.sonarqube.org/)

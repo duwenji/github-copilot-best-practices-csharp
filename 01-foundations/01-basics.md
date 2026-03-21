@@ -1,17 +1,15 @@
-# 01 基本操作
-
-## Copilot 基本操作を習得する
+﻿### Copilot 基本操作を習得する
 
 このファイルでは、GitHub Copilot の IDE 内での操作方法と、基本的なコンテキスト設定を学びます。
 
 ---
 
-## ✅ コード補完（Inline Suggestions）の基本操作
+### ✅ コード補完（Inline Suggestions）の基本操作
 
-### コード補完とは
+#### コード補完とは
 コードを書いている最中に、灰色のテキストで次のコードを提案する機能です。
 
-### 基本操作
+#### 基本操作
 
 | 操作 | キー | 説明 |
 |------|------|------|
@@ -21,7 +19,7 @@
 | **前の提案を表示** | `Alt + [` | 前の提案に戻る |
 | **提案を再実行** | カーソル移動または新規入力 | 新しい状況での提案 |
 
-### 提案が表示されないときは
+#### 提案が表示されないときは
 1. インターネット接続を確認
 2. GitHub Copilot 拡張機能が有効か確認 → VS Code 拡張パネルで確認
 3. Copilot サブスクリプション有効期限を確認
@@ -29,9 +27,9 @@
 
 ---
 
-## 💡 効果的なコンテキスト設定
+### 💡 効果的なコンテキスト設定
 
-### ファイル名の重要性
+#### ファイル名の重要性
 
 Copilot は**ファイル名**から文脈を読み取ります。
 
@@ -44,14 +42,14 @@ public bool ValidateName(string name)
 }
 ```
 
-### プロジェクト構造の活用
+#### プロジェクト構造の活用
 
 ファイルをカテゴリ別に整理すると、Copilot はより正確な提案をします：
 - `/Services/` 内のファイル → Service パターンの提案
 - `/Repositories/` 内のファイル → Repository パターンの提案
 - `/Models/` 内のファイル → DTO・Entity の提案
 
-### XMLコメント(Documentation)の活用
+#### XMLコメント(Documentation)の活用
 
 ```csharp
 /// <summary>
@@ -67,21 +65,21 @@ public List<User> MarkInactiveUsers(List<User> users)
 
 ---
 
-## 🎯 IDE 別設定確認
+### 🎯 IDE 別設定確認
 
-### Visual Studio Code
+#### Visual Studio Code
 1. **拡張機能タブを開く** （Ctrl+Shift+X）
 2. **GitHub Copilot を検索** → インストール
 3. GitHub アカウントでサインイン
 4. 拡張設定：`settings.json` で必要に応じてカスタマイズ
 
-### Visual Studio (2022 以降)
+#### Visual Studio (2022 以降)
 1. **ツール → オプション → GitHub Copilot**
 2. 設定を確認・有効化
 
 ---
 
-## 📖 推奨設定事例
+### 📖 推奨設定事例
 
 ```json
 {
@@ -100,7 +98,7 @@ public List<User> MarkInactiveUsers(List<User> users)
 
 ---
 
-## ✅ 習熟度チェック
+### ✅ 習熟度チェック
 
 このセクション完了時、以下ができていますか？
 
@@ -114,7 +112,7 @@ public List<User> MarkInactiveUsers(List<User> users)
 
 ---
 
-## 📝 トラブルシューティング
+### 📝 トラブルシューティング
 
 **Q: グレーテキストが表示されない**  
 A: 1) インターネット接続 2) 拡張機能有効性 3) サブスクリプション有効期限 を確認

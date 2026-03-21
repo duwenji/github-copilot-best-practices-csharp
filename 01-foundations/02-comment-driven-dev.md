@@ -1,14 +1,12 @@
-# 07 コメント駆動開発
-
-## 効果的なコメントで Copilot の精度を上げる
+﻿### 効果的なコメントで Copilot の精度を上げる
 
 GitHub Copilot は**具体的なコメント**から、正確なコードを生成します。このセクションでは、コメント駆動開発のテクニックを学びます。
 
 ---
 
-## 🎯 基本原則：曖昧さを避ける
+### 🎯 基本原則：曖昧さを避ける
 
-### ❌ 悪い例 — 曖昧なコメント
+#### ❌ 悪い例 — 曖昧なコメント
 
 ```csharp
 // Before: 曖昧なコメント
@@ -20,7 +18,7 @@ public List<User> ProcessUsers(List<User> users)
 }
 ```
 
-### ✅ 良い例 — 具体的なコメント
+#### ✅ 良い例 — 具体的なコメント
 
 ```csharp
 // After: 具体的なコメント（Copilot が正確に提案）
@@ -44,9 +42,9 @@ public List<User> MarkInactiveUsers(List<User> users)
 
 ---
 
-## 📝 効果的なコメント構造
+### 📝 効果的なコメント構造
 
-### パターン 1：目的 + 条件 + 結果
+#### パターン 1：目的 + 条件 + 結果
 
 ```csharp
 // [テーマ]から、[条件]な[対象]を[処理内容]
@@ -68,7 +66,7 @@ public List<string> FindHighScorers(List<Student> students, double threshold = 8
 }
 ```
 
-### パターン 2：エッジケースを明記
+#### パターン 2：エッジケースを明記
 
 ```csharp
 // 平均スコアを計算する。
@@ -83,7 +81,7 @@ public double? CalculateAverageScore(List<double> scores)
 }
 ```
 
-### パターン 3：外部ライブラリの動作を明記
+#### パターン 3：外部ライブラリの動作を明記
 
 ```csharp
 // メールアドレスを検証する。
@@ -105,11 +103,11 @@ public bool ValidateEmail(string email)
 
 ---
 
-## 🔧 XMLコメント (Documentation Comments) の活用
+### 🔧 XMLコメント (Documentation Comments) の活用
 
 XMLコメントを書くことで、Copilot はメソッドの意図を完全に理解します。
 
-### 基本構造
+#### 基本構造
 
 ```csharp
 /// <summary>
@@ -142,7 +140,7 @@ public List<string> FindHighScorers(
 }
 ```
 
-### XMLコメント の要素
+#### XMLコメント の要素
 
 | タグ | 用途 | 例 |
 |-----|------|---|
@@ -152,7 +150,7 @@ public List<string> FindHighScorers(
 | `<exception>` | 例外のドキュメント | `<exception cref="ArgumentNullException">」users が null の場合</exception>` |
 | `<remarks>` | 詳細説明（オプション） | 実装上の注意など |
 
-### 効果的な XMLコメント の例
+#### 効果的な XMLコメント の例
 
 ```csharp
 /// <summary>
@@ -183,9 +181,9 @@ public decimal CalculateShippingCost(
 
 ---
 
-## 💡 コメント駆動開発のプロセス
+### 💡 コメント駆動開発のプロセス
 
-### ステップ 1: 目的を明記
+#### ステップ 1: 目的を明記
 
 ```csharp
 // 「何を達成するのか」を最初に書く
@@ -196,7 +194,7 @@ public void ProcessInactiveUsers(List<User> users)
 }
 ```
 
-### ステップ 2: エッジケースを記載
+#### ステップ 2: エッジケースを記載
 
 ```csharp
 // 注記：
@@ -205,7 +203,7 @@ public void ProcessInactiveUsers(List<User> users)
 // - ログイン日時が null の場合はアクティブと判定
 ```
 
-### ステップ 3: 例を示す（複雑な場合）
+#### ステップ 3: 例を示す（複雑な場合）
 
 ```csharp
 // 例：
@@ -215,9 +213,9 @@ public void ProcessInactiveUsers(List<User> users)
 
 ---
 
-## 🎯 シナリオ別コメントテンプレート
+### 🎯 シナリオ別コメントテンプレート
 
-### データ変換
+#### データ変換
 
 ```csharp
 // [入力データ]を[処理内容]して、[出力データ]に変換
@@ -230,7 +228,7 @@ public List<int> GetActiveUserIds(List<User> users)
 }
 ```
 
-### バリデーション
+#### バリデーション
 
 ```csharp
 // [対象]が[条件]を満たすか検証
@@ -242,7 +240,7 @@ public bool ValidateUser(User user)
 }
 ```
 
-### 計算・統計
+#### 計算・統計
 
 ```csharp
 // [データセット]の[指標]を計算
@@ -256,7 +254,7 @@ public double CalculateMetric(List<decimal> data)
 
 ---
 
-## ✅ 習熟度チェック
+### ✅ 習熟度チェック
 
 このセクション完了時、以下ができていますか？
 
@@ -270,7 +268,7 @@ public double CalculateMetric(List<decimal> data)
 
 ---
 
-## 🔗 関連資料
+### 🔗 関連資料
 
 - [C# XML Documentation Comments](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/)
 - [Microsoft Learn: Code documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/coding-style/coding-conventions)
