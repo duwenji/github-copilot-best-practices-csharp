@@ -148,7 +148,6 @@ services.AddScoped<IUserRepository, UserRepository>();
 
 #### シーン：このクラスのユニットテストを生成したい
 
-```
 ユーザー: このクラスのユニットテストを生成して
 
 ```csharp

@@ -10,7 +10,7 @@
 
 ---
 
-```markdown
+````markdown
 # GitHub Copilot Instructions
 
 このドキュメントは、このプロジェクトで Copilot を使用する際の指針です。
@@ -575,7 +575,7 @@ public async Task<OrderResult> ProcessPaymentAsync(int orderId)
 ## Questions?
 
 Ask in #copilot-questions on Slack
-```
+````
 
 ---
 

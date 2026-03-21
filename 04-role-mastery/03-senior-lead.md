@@ -53,7 +53,7 @@ C) Modular Monolith → 中庸
 
 **具体例**：`.github/copilot-instructions.md` の策定
 
-```markdown
+````markdown
 # Copilot Instructions
 
 ## Project Context
@@ -101,7 +101,7 @@ catch (Exception ex)
 - All external input validation required
 - SQL injection prevention: parameterized queries
 - CORS: Whitelist only approved origins
-```
+````
 
 **チーム波及効果**：
 - 新人が「このプロジェクトの標準」を Copilot に教えられる
