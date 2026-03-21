@@ -75,7 +75,7 @@ formats:
 
 # Navigation and Indexing
 page-list:
-  enabled: true
+  enabled: false
   heading-level: 2
 
 # Metadata for bookstore distribution (optional)
