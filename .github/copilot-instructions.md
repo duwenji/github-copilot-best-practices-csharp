@@ -15,6 +15,6 @@
 - 章構成前提: `00-COVER.md` と `01-*` 以降の章フォルダ/章ファイル
 
 ## Shared skill discovery order
-1. `.github/skills/shared-copilot-skills/*`
+1. `.github/skills/shared-skills/*`
 2. `.github/skills/*`
 3. `../shared-copilot-skills/*`
