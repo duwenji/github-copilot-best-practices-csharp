@@ -1,8 +1,8 @@
 {
   "projectName": "github-copilot-best-practices-csharp",
-  "sourceRoot": ".",
+  "sourceRoot": "./docs",
   "outputDir": "./ebook-output",
-  "formats": ["epub", "azw3", "mobi"],
+  "formats": ["epub"],
   "enablePageList": false,
   "chapterDirPattern": "^\\d{2}-",
   "chapterFilePattern": "^\\d{2}-.*\\.md$",

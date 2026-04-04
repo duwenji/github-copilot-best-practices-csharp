@@ -1,0 +1,6 @@
+title: GitHub Copilot ベストプラクティス（C# 版）
+description: C# 開発における GitHub Copilot の実践的な活用方法を学ぶ日本語教材
+baseurl: "/github-copilot-best-practices-csharp"
+url: "https://duwenji.github.io"
+theme: minima
+markdown: kramdown

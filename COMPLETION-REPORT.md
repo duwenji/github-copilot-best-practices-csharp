@@ -67,7 +67,7 @@
 - 04-project-templates.md
 
 #### ルートレベル
-- 00-COVER.md （ebook表紙）
+- docs/00-COVER.md （ebook表紙）
 - MASTER-INDEX.md （マスターインデックス）
 
 **目的達成**: 包括的な教育コンテンツを全セクションに配置
@@ -193,7 +193,7 @@
 - [x] Markdown構文: 全ファイル検証✓
 
 ### Ebook互換性（✅ 全パス）
-- [x] 00-COVER.md 配置確認
+- [x] docs/00-COVER.md 配置確認
 - [x] build.json 設定完了
 - [x] metadata.yaml 作成完了
 - [x] EPUB生成: 177.5 KB

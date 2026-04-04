@@ -6,49 +6,23 @@
 
 ```
 github-copilot-best-practices-csharp/
-├── 00-COVER.md                          # ebook表紙・ランディングページ
 ├── README.md                            # ナビゲーションガイド
 ├── MASTER-INDEX.md                      # このファイル
-│
-├── 01-foundations/                      # 基礎知識セクション
-│   ├── README.md
-│   ├── 01-basics.md                     # IDE設定・キーボードショートカット
-│   ├── 02-comment-driven-dev.md         # コメント駆動開発・XMLDoc
-│   └── 03-beginner-scenarios.md         # 3つの初心者シナリオ
-│
-├── 02-core-features/                    # コア機能セクション
-│   ├── README.md
-│   ├── 01-inline-completions.md         # インラインコンプリーション
-│   ├── 02-copilot-chat.md               # Copilot Chat機能
-│   ├── 03-inline-edits.md               # インラインエディット
-│   └── 04-agent-mode.md                 # エージェントモード
-│
-├── 03-hands-on-workflows/               # ハンズオン・ワークフロー
-│   ├── README.md
-│   ├── 01-design-patterns.md            # デザインパターン実装
-│   ├── 02-performance-optimization.md   # パフォーマンス最適化
-│   └── 03-testability.md                # テスト駆動設計
-│
-├── 04-role-mastery/                     # ロール別マスタリー
-│   ├── README.md
-│   ├── 01-beginner-developer.md         # 初級開発者ロードマップ
-│   ├── 02-mid-level-developer.md        # 中級開発者スキル
-│   ├── 03-senior-lead.md                # シニア・リードガイド
-│   └── 04-qa-engineer.md                # QA エンジニアガイド
-│
-├── 05-team-operations/                  # チーム運用セクション
-│   ├── README.md
-│   ├── 01-team-standards.md             # チームスタンダードテンプレート
-│   ├── 02-adoption-strategy.md          # 導入戦略・ロールアウト計画
-│   ├── 03-metrics-measurement.md        # メトリクス・ROI測定
-│   └── 04-copilot-instructions-template.md # .instructions.md テンプレート
-│
-└── 06-reference/                        # リファレンスセクション
-    ├── README.md
-    ├── 01-troubleshooting.md            # トラブルシューティング集
-    ├── 02-quick-reference.md            # クイックリファレンス
-    ├── 03-feature-by-role-matrix.md     # 機能×ロール対応表
-    └── 04-project-templates.md          # プロジェクトテンプレート集
+├── QUICK-REFERENCE.md                   # 学習の要点まとめ
+├── COMPLETION-REPORT.md                 # 構成整理メモ
+├── build.json                           # ebook-build 設定
+├── metadata.yaml                        # 電子書籍メタデータ
+├── ebook-output/                        # 生成物
+└── docs/
+    ├── 00-COVER.md                      # ebook表紙・ランディングページ
+    ├── index.md
+    ├── _config.yml
+    ├── 01-foundations/                  # 基礎知識セクション
+    ├── 02-core-features/                # コア機能セクション
+    ├── 03-hands-on-workflows/           # ハンズオン・ワークフロー
+    ├── 04-role-mastery/                 # ロール別マスタリー
+    ├── 05-team-operations/              # チーム運用セクション
+    └── 06-reference/                    # リファレンスセクション
 ```
 
 ## 🎯 セクション別ガイド

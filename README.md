@@ -201,12 +201,12 @@ Week 9+:    04-role-mastery/      （ロール特化）
 
 | セクション | 目的 | リンク |
 |-----------|------|--------|
-| **学習開始** | 初めての人向け | [01-foundations/README](01-foundations/README.md) |
-| **機能習得** | Copilot の使い方 | [02-core-features/README](02-core-features/README.md) |
-| **パターン** | 実装の具体例 | [03-hands-on-workflows/README](03-hands-on-workflows/README.md) |
-| **ロール別** | 自分の職種別ガイド | [04-role-mastery/README](04-role-mastery/README.md) |
-| **チーム導入** | 組織的な導入計画 | [05-team-operations/README](05-team-operations/README.md) |
-| **辞書的参照** | トラブル対応・ショートカット | [06-reference/README](06-reference/README.md) |
+| **学習開始** | 初めての人向け | [01-foundations/README](docs/01-foundations/README.md) |
+| **機能習得** | Copilot の使い方 | [02-core-features/README](docs/02-core-features/README.md) |
+| **パターン** | 実装の具体例 | [03-hands-on-workflows/README](docs/03-hands-on-workflows/README.md) |
+| **ロール別** | 自分の職種別ガイド | [04-role-mastery/README](docs/04-role-mastery/README.md) |
+| **チーム導入** | 組織的な導入計画 | [05-team-operations/README](docs/05-team-operations/README.md) |
+| **辞書的参照** | トラブル対応・ショートカット | [06-reference/README](docs/06-reference/README.md) |
 
 ---
 
@@ -226,11 +226,11 @@ A: 初級から実務投入まで 4-8 週間。その後継続学習。
 
 **Q: チーム導入は難しい？**
 
-A: [05-team-operations/02-adoption-strategy.md](05-team-operations/02-adoption-strategy.md) で 3 フェーズ計画を提供。
+A: [05-team-operations/02-adoption-strategy.md](docs/05-team-operations/02-adoption-strategy.md) で 3 フェーズ計画を提供。
 
 **Q: C# 経験がなくても大丈夫？**
 
-A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート。基本から丁寧に説明。
+A: [01-foundations/01-basics.md](docs/01-foundations/01-basics.md) からスタート。基本から丁寧に説明。
 
 ---
 
@@ -255,7 +255,7 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 
 **すべてチェック完了？**
 
-→ [01-foundations/01-basics.md](01-foundations/01-basics.md) へ Go! 🚀
+→ [01-foundations/01-basics.md](docs/01-foundations/01-basics.md) へ Go! 🚀
 
 ---
 
@@ -265,7 +265,7 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 **こんな人向け:** C# の基本は知っているが実務経験が浅い、Copilot 未経験
 
 **学習時間**: 約 4-5 時間 | **推奨セクション:**  
-[01-foundations](01-foundations/) → [02-core-features](02-core-features/) → [04-role-mastery/01-beginner-developer.md](04-role-mastery/01-beginner-developer.md)
+[01-foundations](docs/01-foundations/) → [02-core-features](docs/02-core-features/) → [04-role-mastery/01-beginner-developer.md](docs/04-role-mastery/01-beginner-developer.md)
 
 ---
 
@@ -273,7 +273,7 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 **こんな人向け:** C# 経験1-3年、Copilot の基本操作はできる、もっと効率化したい
 
 **学習時間**: 約 2-3 時間 | **推奨セクション:**  
-[02-core-features](02-core-features/) → [03-hands-on-workflows](03-hands-on-workflows/) → [04-role-mastery/02-mid-level-developer.md](04-role-mastery/02-mid-level-developer.md)
+[02-core-features](docs/02-core-features/) → [03-hands-on-workflows](docs/03-hands-on-workflows/) → [04-role-mastery/02-mid-level-developer.md](docs/04-role-mastery/02-mid-level-developer.md)
 
 ---
 
@@ -281,7 +281,7 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 **こんな人向け:** C# 経験3年以上、テックリード、チーム全体への導入を検討中
 
 **学習時間**: 約 3-4 時間 | **推奨セクション:**  
-[04-role-mastery/03-senior-lead.md](04-role-mastery/03-senior-lead.md) → [05-team-operations](05-team-operations/)
+[04-role-mastery/03-senior-lead.md](docs/04-role-mastery/03-senior-lead.md) → [05-team-operations](docs/05-team-operations/)
 
 ---
 
@@ -289,7 +289,7 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 **こんな人向け:** テスト自動化・品質保証担当者、テストコード生成を活用したい
 
 **学習時間**: 約 1.5-2 時間 | **推奨セクション:**  
-[01-foundations](01-foundations/) → [04-role-mastery/04-qa-engineer.md](04-role-mastery/04-qa-engineer.md) → [03-hands-on-workflows/03-testability.md](03-hands-on-workflows/03-testability.md)
+[01-foundations](docs/01-foundations/) → [04-role-mastery/04-qa-engineer.md](docs/04-role-mastery/04-qa-engineer.md) → [03-hands-on-workflows/03-testability.md](docs/03-hands-on-workflows/03-testability.md)
 
 ---
 
@@ -297,39 +297,39 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 
 | セクション | 内容 | 対象 | 推定時間 |
 |----------|------|------|---------|
-| **[01-foundations](01-foundations/)** | 基本操作・初心者向けシナリオ | 初心者 | 1h |
-| **[02-core-features](02-core-features/)** | 4つの主要機能の詳細 | 初〜中級 | 2.5h |
-| **[03-hands-on-workflows](03-hands-on-workflows/)** | 実践的ワークフロー | 中級 | 1.5h |
-| **[04-role-mastery](04-role-mastery/)** | ロール別詳細ガイド | 全員 | 1-2h |
-| **[05-team-operations](05-team-operations/)** | チーム導入戦略 | リード | 2-3h |
-| **[06-reference](06-reference/)** | トラブルシューティング・辞書 | 全員 | 随時 |
+| **[01-foundations](docs/01-foundations/)** | 基本操作・初心者向けシナリオ | 初心者 | 1h |
+| **[02-core-features](docs/02-core-features/)** | 4つの主要機能の詳細 | 初〜中級 | 2.5h |
+| **[03-hands-on-workflows](docs/03-hands-on-workflows/)** | 実践的ワークフロー | 中級 | 1.5h |
+| **[04-role-mastery](docs/04-role-mastery/)** | ロール別詳細ガイド | 全員 | 1-2h |
+| **[05-team-operations](docs/05-team-operations/)** | チーム導入戦略 | リード | 2-3h |
+| **[06-reference](docs/06-reference/)** | トラブルシューティング・辞書 | 全員 | 随時 |
 
 ---
 
 ## ⭐ クイックスタート
 
 ### 🎓 初心者のクイックスタート（30分）
-1. [01-foundations/README](01-foundations/README.md) を読む（15分）
+1. [01-foundations/README](docs/01-foundations/README.md) を読む（15分）
 2. IDE で実際に試す — コメント書いて Copilot 見る（15分）
 
 ### 🚀 中級者のクイックスタート（15分）
-困りごとを選ぶ → [03-hands-on-workflows](03-hands-on-workflows/) の該当ワークフロー実装
+困りごとを選ぶ → [03-hands-on-workflows](docs/03-hands-on-workflows/) の該当ワークフロー実装
 
 ### 👔 上級者/リードのクイックスタート（30分）
-[05-team-operations/02-adoption-strategy.md](05-team-operations/02-adoption-strategy.md) で導入フェーズ確認
+[05-team-operations/02-adoption-strategy.md](docs/05-team-operations/02-adoption-strategy.md) で導入フェーズ確認
 
 ---
 
 ## 🗺️ セクション関係図
 
 ```
-初心者入口 → 01-foundations → 02-core-features
-                                 ├→ [初心者ここまで] → 04-mastery/01-beginner
-                                 └→ [続ける] → 03-hands-on-workflows
-                                                 ├→ [中級ここまで] → 04-mastery/02-mid
-                                                 └→ [続ける] → 04-mastery/03-senior
-                                                                 → 05-team-operations
-[全員] → 06-reference （困ったときの辞書）
+初心者入口 → docs/01-foundations → docs/02-core-features
+                                      ├→ [初心者ここまで] → docs/04-role-mastery/01-beginner
+                                      └→ [続ける] → docs/03-hands-on-workflows
+                                                      ├→ [中級ここまで] → docs/04-role-mastery/02-mid
+                                                      └→ [続ける] → docs/04-role-mastery/03-senior
+                                                                      → docs/05-team-operations
+[全員] → docs/06-reference （困ったときの辞書）
 ```
 
 ---
@@ -343,11 +343,11 @@ A: [01-foundations/01-basics.md](01-foundations/01-basics.md) からスタート
 
 ## 🎉 さあ、始めましょう！
 
-**ステップ 1**: [学習パスを選択](#-あなたはどのタイプ---学習パス選択)  
+**ステップ 1**: 学習パスを選ぶ  
 **ステップ 2**: 推奨セクションを開く  
 **ステップ 3**: 実装してみる  
 
-困ったときは [06-reference](06-reference/) で即座に解決！
+困ったときは [06-reference](docs/06-reference/) で即座に解決！
 
 ---
 
