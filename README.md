@@ -5,7 +5,7 @@
 
 完全な C# プロジェクト開発における GitHub Copilot の効果的な活用方法を習得するための包括的なガイドです。
 
-> 💡 ブラウザで https://duwenji.github.io/spa-quiz-app/ を開くと、この教材をクイズ形式で学習できます。
+> 💡 ブラウザで https://duwenji.github.io/spa-quiz-app/ を開くと、関連トピックをクイズ形式で復習できます。
 
 > 🧭 **補完教材:** チーム標準や品質ゲートを C# 実装以外も含めて整理したい場合は、[開発プロセス標準化 Skill ライブラリ](https://github.com/duwenji/dev-process-skill-library) を併用してください。
 
