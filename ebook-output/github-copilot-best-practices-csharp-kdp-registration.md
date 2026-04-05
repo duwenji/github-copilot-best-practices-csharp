@@ -1,6 +1,6 @@
 # KDP 登録情報一式: GitHub Copilot Best Practices CSharp
 
-- 生成日時: 2026-04-05 11:34:22
+- 生成日時: 2026-04-05 13:02:44
 - プロジェクト名: github-copilot-best-practices-csharp
 - 元メタデータ: C:\dev\apps\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.metadata.yaml
 - KDP 追加メタデータ: C:\dev\apps\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.kdp.yaml
