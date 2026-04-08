@@ -1,12 +1,32 @@
-title: GitHub Copilot Best Practices CSharp
-creator: 杜 文吉
+title: "GitHub Copilot Best Practices CSharp"
+subtitle: "C# 開発で生産性と品質を両立する実践ガイド"
+creator: "杜 文吉"
+date: "2026-03-21"
 language: ja-JP
-rights: Copyright (c) Duwenji
-publisher: Duwenji
-date: 2026-03-21
-identifier: gcopilot-csharp-v1
-subject:
-  - github copilot
-  - csharp
-  - best practices
+publisher: "GitHub"
+rights: "Creative Commons Attribution 4.0 International License"
+identifier: "github-copilot-best-practices-csharp-v1"
+description: |
+  GitHub Copilot を C# 開発で効果的に活用するためのベストプラクティス集です。
+  生成コードのレビュー観点、プロンプトの与え方、保守性と品質を落とさない活用方法を、
+  実践的なワークフローに沿って整理しています。
+keywords:
+  - GitHub Copilot
+  - CSharp
+  - Best Practices
+  - Developer Productivity
+  - Code Review
+  - Prompting
+  - Software Engineering
+cover: "00-COVER.md"
+toc: true
 toc-depth: 2
+chapters:
+  auto-discover: true
+  dir-pattern: "^\\d{2}-"
+  file-pattern: "^\\d{2}-.*\\.md$"
+include-readme: false
+version: "1.0"
+revision-date: "2026-04-08"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"

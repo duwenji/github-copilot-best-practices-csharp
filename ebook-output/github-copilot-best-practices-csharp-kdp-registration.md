@@ -1,6 +1,6 @@
 # KDP 登録情報一式: GitHub Copilot Best Practices CSharp
 
-- 生成日時: 2026-04-05 16:25:16
+- 生成日時: 2026-04-09 00:12:29
 - プロジェクト名: github-copilot-best-practices-csharp
 - 元メタデータ: C:\dev\apps\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.metadata.yaml
 - KDP 追加メタデータ: C:\dev\apps\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.kdp.yaml
@@ -13,9 +13,9 @@
 | サブタイトル | C# 開発で生産性と品質を両立する実践ガイド |
 | 著者 | 杜 文吉 |
 | 言語 | ja-JP |
-| 出版社 | Duwenji |
-| 権利 | Copyright (c) Duwenji |
-| 識別子 | gcopilot-csharp-v1 |
+| 出版社 | GitHub |
+| 権利 | Creative Commons Attribution 4.0 International License |
+| 識別子 | github-copilot-best-practices-csharp-v1 |
 | 出版日 | 2026-03-21 |
 | ISBN | Kindle 版のみなら通常不要 |
 
