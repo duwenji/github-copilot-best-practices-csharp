@@ -1,9 +1,9 @@
 # KDP 登録情報一式: GitHub Copilot Best Practices CSharp
 
-- 生成日時: 2026-04-11 16:40:44
+- 生成日時: 2026-04-12 17:15:33
 - プロジェクト名: github-copilot-best-practices-csharp
-- 元メタデータ: C:\dev\apps\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.metadata.yaml
-- KDP 追加メタデータ: C:\dev\apps\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.kdp.yaml
+- 元メタデータ: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.metadata.yaml
+- KDP 追加メタデータ: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.kdp.yaml
 
 ## 1. 基本書誌情報
 
@@ -60,8 +60,8 @@
 
 ## 7. アップロード対象ファイル
 
-- EPUB: C:\dev\apps\github-copilot-best-practices-csharp\.\ebook-output\github-copilot-best-practices-csharp.epub
-- PDF: C:\dev\apps\github-copilot-best-practices-csharp\.\ebook-output\github-copilot-best-practices-csharp.pdf
+- EPUB: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\ebook-output\github-copilot-best-practices-csharp.epub
+- PDF: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\ebook-output\github-copilot-best-practices-csharp.pdf
 
 ## 8. 公開前 TODO
 
