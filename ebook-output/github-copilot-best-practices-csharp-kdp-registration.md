@@ -1,29 +1,33 @@
-# KDP 登録情報一式: GitHub Copilot Best Practices CSharp
+# KDP Registration Package: GitHub Copilot Best Practices CSharp
 
-- 生成日時: 2026-04-12 17:15:33
-- プロジェクト名: github-copilot-best-practices-csharp
-- 元メタデータ: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.metadata.yaml
-- KDP 追加メタデータ: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.kdp.yaml
+- Generated: 2026-07-05 01:43:31
+- Project: github-copilot-best-practices-csharp
+- Metadata: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.metadata.yaml
+- KDP Metadata: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\.github\skills-config\ebook-build\github-copilot-best-practices-csharp.kdp.yaml
 
-## 1. 基本書誌情報
+## 1. Bibliographic Information
 
-| 項目 | 値 |
+| Field | Value |
 |---|---|
-| タイトル | GitHub Copilot Best Practices CSharp |
-| サブタイトル | C# 開発で生産性と品質を両立する実践ガイド |
-| 著者 | 杜 文吉 |
-| 言語 | ja-JP |
-| 出版社 | GitHub |
-| 権利 | Creative Commons Attribution 4.0 International License |
-| 識別子 | github-copilot-best-practices-csharp-v1 |
-| 出版日 | 2026-03-21 |
-| ISBN | Kindle 版のみなら通常不要 |
+| Title | GitHub Copilot Best Practices CSharp |
+| Title Pronunciation | — |
+| Romanized Title | — |
+| Subtitle | C# 開発で生産性と品質を両立する実践ガイド |
+| Subtitle Pronunciation | — |
+| Romanized Subtitle | — |
+| Author | 杜 文吉 |
+| Language | ja-JP |
+| Publisher | GitHub |
+| Rights | Creative Commons Attribution 4.0 International License |
+| Identifier | github-copilot-best-practices-csharp-v1 |
+| Publication Date | 2026-03-21 |
+| ISBN | Typically not required for Kindle only |
 
-## 2. KDP 商品説明文
+## 2. Product Description
 
 > GitHub Copilot を C# 開発で効果的に活用するためのベストプラクティス集です。 生成コードのレビュー観点、プロンプトの与え方、保守性と品質を落とさない活用方法を、実践的な観点から整理しています。
 
-## 3. キーワード（最大 7）
+## 3. Keywords (up to 7)
 
 - GitHub Copilot
 - CSharp
@@ -33,36 +37,22 @@
 - Prompting
 - Software Engineering
 
-## 4. カテゴリ（最大 3）
+## 4. Categories (up to 3)
 
 - Computers / Programming / Microsoft
 - Computers / Software Development / Tools
 - Computers / Programming / Object Oriented
 
-## 5. 価格・ロイヤルティ・配信設定
+## 5. Pricing and Distribution
 
-| 項目 | 値 |
+| Field | Value |
 |---|---|
-| 価格 | 1680 JPY |
-| ロイヤルティ | 70% |
-| 配信地域 | Worldwide |
+| List Price | 1680 JPY |
+| Royalty | 70% |
+| Territories | Worldwide |
 | KDP Select | No |
-| 対象年齢 | 指定なし |
-| 対象学年 | 指定なし |
 
-## 6. PDF / 印刷設定メモ
-
-| 項目 | 値 |
-|---|---|
-| レイアウト | fixed-layout PDF |
-| Trim size | 6in x 9in |
-| Bleed | No bleed |
-
-## 7. アップロード対象ファイル
+## 6. Upload Files
 
 - EPUB: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\ebook-output\github-copilot-best-practices-csharp.epub
 - PDF: C:\Dev\tutorials\github-copilot-best-practices-csharp\.\ebook-output\github-copilot-best-practices-csharp.pdf
-
-## 8. 公開前 TODO
-
-- 主要項目は入力済みです。KDP 画面で最終確認してください。

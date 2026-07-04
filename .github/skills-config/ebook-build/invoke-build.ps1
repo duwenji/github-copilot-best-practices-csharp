@@ -10,7 +10,7 @@
 param(
     [string]$ConfigFile = '.github/skills-config/ebook-build/github-copilot-best-practices-csharp.build.json',
     [Parameter(Mandatory = $true)]
-    [ValidateSet('step1', 'step2', 'step3')]
+    [ValidateSet('step1', 'step2', 'step2b', 'step3')]
     [string]$BuildStep
 )
 

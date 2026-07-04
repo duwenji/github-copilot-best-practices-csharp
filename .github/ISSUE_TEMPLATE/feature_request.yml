@@ -1,0 +1,32 @@
+name: Feature request
+description: 教材に追加したいトピックや改善案を提案します
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 背景・課題
+      description: どんな C# 開発上の課題を解決したいですか？
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案内容
+      description: 追加したい章、サンプルコード、演習など
+    validations:
+      required: true
+
+  - type: dropdown
+    id: scenario
+    attributes:
+      label: 関連セクション
+      options:
+        - 01-foundations（基礎知識）
+        - 02-core-features（コア機能）
+        - 03-hands-on-workflows（ハンズオン）
+        - 04-role-mastery（ロール別）
+        - 05-team-operations（チーム運用）
+        - 06-reference（リファレンス）
